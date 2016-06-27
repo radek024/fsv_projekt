@@ -1,0 +1,238 @@
+body{
+    padding-top: 70px;
+    color: #000000;
+    font-family: Open Sans, sans-serif;
+}
+
+blockquote {
+    padding: 10px 100px;
+    margin: 0 0 20px;
+    font-size: 15.5px;
+    font-style: italic;
+    border-left: 0;
+    color: #777777;
+}
+
+.brand-name{
+  margin:0;
+}
+
+.navbar{
+  min-height: 70px;
+}
+
+.navbar-default .navbar-collapse{
+  margin-top: 10px;
+}
+
+.wrapper{
+  max-width: 997px;
+  margin:0 auto;
+}
+
+.welcome{
+  background-image: url("../img/welcome-bg.png");
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px;
+  font-size: 24px;
+  font-weight: 400;
+  color:#ffffff;
+}
+
+.welcome .comp-motto{
+  font-size: 24px;
+}
+
+.scroll-down{
+  width: 66px;
+  height: 66px;
+  background: url("../img/strzalka.png");
+  display: block;
+  margin: 140px auto 0;
+}
+
+.service{
+  padding-top: 70px;
+}
+
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.service .img-responsive{
+  padding: 0 20%;
+  margin: 0 auto;
+}
+
+.service-content{
+  text-align: justify;
+}
+
+article.carousel{
+  padding-top: 40px;
+}
+
+.opinions{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.carousel-indicators li{
+  display: none;
+}
+
+.carousel-control.left{
+  background: 0;
+}
+
+.carousel-control.right{
+  background: 0;
+}
+
+.carousel a.right .glyphicon{
+  background: url("../img/right.png");
+  width: 23px;
+  height: 38px;
+}
+
+.carousel a.left .glyphicon{
+  background: url("../img/left.png");
+  width: 23px;
+  height: 38px;
+}
+
+.quote-auth{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.quote-auth .author::after{
+  display: inline-block;
+  content:"\002C";
+}
+
+.glyphicon-chevron-right:before,.glyphicon-chevron-left:before {
+    content: "";
+}
+
+.trusted-us{
+  padding-top: 80px;
+}
+
+.trusted-us .customer{
+  list-style-type: none;
+  margin: 10px 0 0;
+}
+
+.form{
+  background-image: url("../img/kontakt.png");
+  padding-bottom: 40px;
+}
+
+.form .form-title{
+  padding: 40px 0 20px;
+
+}
+
+.form .comp-address, .form .form-title{
+  color:#ffffff;
+}
+
+.form .form-input{
+  background: 0;
+  border: 2px solid #ffffff;
+  margin: 10px 0 0;
+  padding: 15px;
+  color:#ffffff;
+}
+.form .form-input::-webkit-input-placeholder {
+   color:#ffffff;
+}
+
+.form .form-input:-moz-placeholder { /* Firefox 18- */
+   color:#ffffff;
+}
+
+.form .form-input::-moz-placeholder {  /* Firefox 19+ */
+   color:#ffffff;
+}
+
+.form .form-input:-ms-input-placeholder {
+   color:#ffffff;
+}
+
+.send-form{
+  width: 200px;
+  height: 50px;
+  background-color: #3498db;
+  border:0;
+  margin: 20px 0;
+  font-size:16px;
+  color:#ffffff;
+  text-decoration: underline;
+}
+
+.btn{
+  border-radius:0;
+}
+
+.footer-content{
+  width:100%;
+  height: 100px;
+  background-color: #1876b2;
+  color:#ffffff;
+  text-align: center;
+}
+
+.footer-content .copyright{
+  text-align: left;
+  padding: 0 4%;
+}
+
+.footer-content::before{
+  display: block;
+  width: 66px;
+  height: 66px;
+  content: "";
+  background-image: url("../img/footer_ico.png");
+  position: relative;
+  margin: 0 auto;
+  top:-35px;
+}
+
+@media screen and (max-width: 768px){
+  .navbar-toggle{
+      margin-top: 15px;
+      border:0;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color: #0db4e0;
+  }
+
+  .navbar-nav>li{
+    background-color: #00adf1;
+    text-align: center;
+    color:#ffffff;
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .navbar-default .navbar-nav>li>a{
+    color:#ffffff;
+  }
+
+  .navbar-nav {
+    margin: 0px -15px 0 -15px;
+}
+  .wrapper .service{
+    padding: 70px 10% 0;
+    font-size: 16px;
+  }
+
+}
